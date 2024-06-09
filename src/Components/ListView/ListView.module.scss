@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    max-width: 1280px;
+    position: relative;
+    height: 80px;
+    background-color: #f5f5f5;
+    margin: 1vw;
+}
+
+.img_list {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.name {
+  margin-left: 150px;
+}
+
+.price_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 15vw;
+    color: red;
+    align-items: center;
+}
+
+.button {
+    color: red;
+    border-radius: 25px;
+    border: 1px solid red;
+    margin-top: 10px;
+}
